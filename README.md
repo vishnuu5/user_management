@@ -13,7 +13,7 @@ In the Client Folder create .env file and put this code inside it.
 
 .env
 ```
-REACT_APP_SERVER_DOMAIN='<server_domain>' # example 'http://localhost:8080'
+REACT_APP_SERVER_DOMAIN='http://localhost:8080'
 ```
 
 
@@ -22,10 +22,10 @@ After that create a file in the Server Folder with the name config.js and put th
 config.js
 ```
 export default {
-    JWT_SECRET : "<secret>",
-    EMAIL: "steve.franecki@ethereal.email", // testing email & password
-    PASSWORD : "sMf46xCzrvdrxvuagc",
-    ATLAS_URI: "<MONGODB_ATLAS_URI>"
+    JWT_SECRET : "LjGLIISK3E7SRbhITO+hyPokdcLFwodyT35j1rTG9x8=",
+    EMAIL: "vishnuathmakuru20@gmail.com", // testing email & password
+    PASSWORD : "mpcgypjarjnjbexu",
+    ATLAS_URI: "mongodb+srv://admin:admin123@cluster0.9s5ufum.mongodb.net/User_management"
 }
 ```
 
@@ -33,6 +33,3 @@ export default {
 
 Now, create all these variables in the project and make sure you set ATLAS_URI variable.
 Otherwise, the project will not work.
-
-Learn More about this project from the
-[ - Daily Tuition](https://www.youtube.com/c/@dailytuition) Youtube Channel.
